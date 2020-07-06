@@ -1,0 +1,177 @@
+{
+    "demonspawn": {
+        "trees": {
+            "Bone Conjurer": {
+                "Bone Fragments": {
+                    "slot": 1,
+                    "requires": 0,
+                    "type": "passive",
+                    "proc": 17,
+                    "damage_type": "magic",
+                    "level": 1,
+                    "description": "Chance on attack to launch Bone Fragments at the nearest enemy. Bone Fragments get stuck inside enemies and deal damage over time."
+                },
+
+                "Impale": {
+                    "slot": 3,
+                    "requires": 0,
+                    "type": "active",
+                    "cooldown": 4,
+                    "stun": 2,
+                    "damage_type": "magic",
+                    "level": 1,
+                    "description": "The Bone Conjurer unleashes furius Bone Spikes from the ground around him, damaging and stunning enemies."
+                },
+
+                "Bone Storm": {
+                    "slot": 5,
+                    "requires": 1,
+                    "type": "active",
+                    "cooldown": 12,
+                    "damage_type": "magic",
+                    "level": 12,
+                    "description": "Creates orbiting bones that block projectiles and deal damage to enemies."
+                },
+
+                "Single Out": {
+                    "slot": 6,
+                    "requires": 3,
+                    "type": "passive",
+                    "level": 12,
+                    "description": "The closer the Bone Conjurer is to the target, the more damage he deals."
+                },
+
+                "Ossification": {
+                    "slot": 7,
+                    "requires": 5,
+                    "type": "passive",
+                    "damage_type": "magic",
+                    "level": 24,
+                    "description": "Drain the essence of slain enemies and cause your bones to harden, protecting you from future attacks."
+                },
+
+                "Cartilage Build Up": {
+                    "slot": 9,
+                    "requires": 6,
+                    "type": "passive",
+                    "proc": 20,
+                    "damage_type": "magic",
+                    "level": 24,
+                    "description": "Chance on attack to lob a mass of cartilage and bone at the target which then explodes into Bone Fragments."
+                },
+
+                "Ominous Presence": {
+                    "slot": 10,
+                    "requires": 7,
+                    "type": "passive",
+                    "duration": 3,
+                    "damage_type": "magic",
+                    "level": 36,
+                    "description": "Upon killing an enemy, temporarily become enraged and deal additional damage with all abilities."
+                },
+
+                "Spinal Tap": {
+                    "slot": 11,
+                    "requires": 10,
+                    "type": "active",
+                    "cooldown": 8,
+                    "damage_type": "magic",
+                    "level": 36,
+                    "description": "Forcibly removes bones from the target and pulls them towards you, dealing damage to the target and all targets in the path."
+                },
+
+                "Bone Barrage": {
+                    "slot": 14,
+                    "requires": 11,
+                    "type": "active",
+                    "cooldown": 10,
+                    "damage_type": "magic",
+                    "level": 48,
+                    "description": "Manipulate your bones and create a barrage of boneshards to launch at enemies."
+                }
+            },
+
+            "Blood Lord": {
+                "Gut Spread": {
+                    "slot": 1,
+                    "requires": 0,
+                    "type": "passive",
+                    "damage_type": "magic",
+                    "level": 1,
+                    "description": "Every 5th attack the Blood Lord releases a Blood Nova around him."
+                },
+
+                "Blood Bolts": {
+                    "slot": 3,
+                    "requires": 0,
+                    "type": "active",
+                    "cooldown": 4,
+                    "damage_type": "magic",
+                    "level": 1,
+                    "description": "Blood Lord casts a barrage of piercing blood bolts."
+                },
+
+                "Manapool Aura": {
+                    "slot": 5,
+                    "requires": 1,
+                    "type": "passive",
+                    "level": 12,
+                    "description": "Increases Blood Lords and his allies mana pool and regeneration rate."
+                },
+
+                "Blood Surge": {
+                    "slot": 6,
+                    "requires": 3,
+                    "type": "active",
+                    "cooldown": 4,
+                    "damage_type": "magic",
+                    "level": 12,
+                    "description": "The Blood Lord unleashes a huge blood surge."
+                },
+
+                "Demonic Presence": {
+                    "slot": 8,
+                    "requires": 5,
+                    "type": "passive",
+                    "level": 24,
+                    "description": "Increases all spell damage done by the Blood Lord."
+                },
+
+                "Mana Shield": {
+                    "slot": 10,
+                    "requires": 11,
+                    "type": "active",
+                    "level": 36,
+                    "description": "Blood Lord summons a mana shield which will turn all damage taken into mana."
+                },
+
+                "Mana Devour": {
+                    "slot": 11,
+                    "requires": 8,
+                    "type": "passive",
+                    "proc": 17,
+                    "level": 36,
+                    "description": "Blood Lords attacks have a chance to restore mana."
+                },
+
+                "Blood Demons": {
+                    "slot": 12,
+                    "requires": 11,
+                    "type": "passive",
+                    "damage_type": "magic",
+                    "level": 36,
+                    "description": "Blood Lords active skills also summon Blood Demons that home into nearby enemies."
+                },
+
+                "Blood Tendrils": {
+                    "slot": 14,
+                    "requires": 11,
+                    "type": "active",
+                    "cooldown": 20,
+                    "level": 48,
+                    "description": "Tapping into his satanic powers, the Blood Surge of Blood Lord now summons additional surges and gain increased damage."
+                }
+            }
+        }
+    }
+}
