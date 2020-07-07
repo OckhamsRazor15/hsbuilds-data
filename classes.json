@@ -173,5 +173,175 @@
                 }
             }
         }
+    },
+
+    "plague doctor": {
+        "trees": {
+            "Sanguine Physician": {
+                "Surgical Bloodletting": {
+                    "slot": 1,
+                    "requires": 0,
+                    "type": "active",
+                    "cooldown": 3,
+                    "damage_type": "poison",
+                    "level": 1,
+                    "description": "The Sanguine Physician throws a knife with absolute precision causing AOE bleed to enemies it hits"
+                },
+
+                "Malpractice": {
+                    "slot": 3,
+                    "requires": 0,
+                    "type": "passive",
+                    "proc": 20,
+                    "damage_type": "poison",
+                    "level": 1,
+                    "description": "The inexperience in surgical practices makes the Sanguine Physician have a chance to inflict bleed on hit."
+                },
+
+                "Jar of Leeches": {
+                    "slot": 5,
+                    "requires": 3,
+                    "type": "active",
+                    "cooldown": 10,
+                    "damage_type": "poison",
+                    "level": 12,
+                    "description": "Throws a glass jar containing 4 leeches that search for the closest enemy and stick on them dealing damage."
+                },
+
+                "Crow Mask": {
+                    "slot": 6,
+                    "requires": 5,
+                    "type": "passive",
+                    "level": 12,
+                    "description": "Increases maximum health and resistances when killing an enemy."
+                },
+
+                "Blood Sustenance": {
+                    "slot": 7,
+                    "requires": 1,
+                    "type": "passive",
+                    "damage_type": "poison",
+                    "level": 24,
+                    "description": "Feeding on the blood of infected ones, Sanguine Physician heals himself by hitting targets that are already bleeding."
+                },
+
+                "Crematus!": {
+                    "slot": 8,
+                    "requires": 7,
+                    "type": "active",
+                    "cooldown": 6,
+                    "damage_type": "poison",
+                    "level": 24,
+                    "description": "Sanguine Physician unleashes a cone of flames in front of him. If Crematus comes in touch with a Leech it will cause the Leech to Explode causing AOE bleed."
+                },
+
+                "Lifeblood Aura": {
+                    "slot": 11,
+                    "requires": 8,
+                    "type": "passive",
+                    "level": 36,
+                    "description": "Increases the Sanguine Physician and allies maximum health and health regeneration."
+                },
+
+                "Devout Doctor": {
+                    "slot": 12,
+                    "requires": 8,
+                    "type": "passive",
+                    "level": 36,
+                    "description": "All abilities now cost life to use. You gain increased damage based on maximum health and health."
+                },
+
+                "Defunct Surgeon": {
+                    "slot": 14,
+                    "requires": 11,
+                    "type": "active",
+                    "level": 48,
+                    "description": "The Sanguine Physician enters a rage increasing Damage and Attack Speed. Sanguine Physician drains 5% of his health per second. Cannot be used below 50% health."
+                }
+            },
+
+            "Plague Caller": {
+                "Plague of Rats": {
+                    "slot": 1,
+                    "requires": 0,
+                    "type": "active",
+                    "cooldown": 4,
+                    "damage_type": "poison",
+                    "level": 1,
+                    "description": "Plague Caller unleashes 7 rats in a line. The rats have a chance to be plagued and spread it on impact."
+                },
+
+                "Oops!": {
+                    "slot": 3,
+                    "requires": 0,
+                    "type": "passive",
+                    "proc": 20,
+                    "damage_type": "poison",
+                    "level": 1,
+                    "description": "Attacks have a chance to create a pool of toxic acid. The acid has a chance to be plagued and spread it on impact."
+                },
+
+                "Toxic Flask": {
+                    "slot": 5,
+                    "requires": 3,
+                    "type": "active",
+                    "cooldown": 8,
+                    "damage_type": "poison",
+                    "level": 12,
+                    "description": "The Plague Caller throws a flast that spreads poisonous gas when it breaks."
+                },
+
+                "Booster Shot": {
+                    "slot": 6,
+                    "requires": 5,
+                    "type": "passive",
+                    "level": 12,
+                    "description": "When attacking the Plague Caller has a chance to inject his elixir gaining Attack Speed and Movement Speed."
+                },
+
+                "Chant of Weakness": {
+                    "slot": 7,
+                    "requires": 1,
+                    "type": "active",
+                    "cooldown": 4,
+                    "level": 24,
+                    "description": "Weaken nearby targets, increasing the damage they take from poison."
+                },
+
+                "Plague Master": {
+                    "slot": 8,
+                    "requires": 5,
+                    "type": "passive",
+                    "level": 24,
+                    "description": "Increases the damage inflicted by plague."
+                },
+
+                "Miasma": {
+                    "slot": 11,
+                    "requires": 7,
+                    "type": "passive",
+                    "level": 36,
+                    "description": "Increases attack damage and gives a chance to spawn a poisonous cloud on enemies the Plague Caller impacts."
+                },
+
+                "Fatal Curse": {
+                    "slot": 12,
+                    "requires": 6,
+                    "type": "passive",
+                    "level": 36,
+                    "description": "Chant of Weakness now increases damage from all sources."
+                },
+
+                "Rat King": {
+                    "slot": 14,
+                    "requires": 11,
+                    "type": "active",
+                    "cooldown":40,
+                    "damage_type": "poison",
+                    "level": 48,
+                    "description": "Calls forth a swarm of rats to attack all enemies in the area, applying plague with each attack and slowing them."
+                }
+            }
+        }
     }
 }
